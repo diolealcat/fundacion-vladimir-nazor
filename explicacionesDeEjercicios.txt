@@ -1,0 +1,20 @@
+Ejercicios:
+
+1. Solo pares
+
+    Parte 1.
+     Se crea una funcion la cual recibe un parametro, dicha funcion generara la logica para despues ser llamada en un evento que se ejecuta al cargar el DOM. La soluccion principal esta dentro del bucle while que contiene un un condicional if que se encarga de filtrar, entregando solo los numeros pares he irlos guardando dentro de un array que despues sera retornado por la funcion y mostrado por la consola.
+
+    Parte 2.
+     Para este ejercicio se realiza casi lo mismo que en la parte uno, solo que dentro de esta funcion llamada numeroParSinCero se inicializa en 1 el numero ya que asi no contara los pares sin contar el numero 0. Dicho numero se ira  guardando y acomulando para despues retonar el array y mostrarse por consola. 
+
+2. Suma impares 
+
+    Parte 1.
+     tambien se crea una funcion acsi identica a la usada en los numeros pares pero solo se condiciona el if que esta dentro del bucle while, dicha condicion filtrara entregando solo los impares y retornara el array con los impares que se indican. Despues con un bucle foreach se recorre dicho bucle para tomar esos numeros impares para sumarlos a traves de un contador inicializado en 0 que se le ira sumando cada elemento impar del array.
+
+    Parte 2.
+     tambien se crea una funcion pero que esta recibe dos parametros (min, max) a difernecia de la funcion anterior esta se setea el valor minimo manteniendo la condicion de los impares pero retornando un array con el valor minimo para despues recorrer este con un foreach y dentro ir acomulando en un contador cada elemento y despues al cumplirse la condicion que elemento del array es mayor que el maximo indicado por parametro, se salga del bucle y muestre el resultado.
+
+3 fibonacci 
+    tambien se crea una funcion la cual recibe un parametro (n), dicha funcion tendra un bucle for que se recorre hasta el numero indicado por el usuario, dentro del bucle se condicionara para filtrar lo que se va envaindo  al array. Despues retornara el array para despues ser recorrido con un foreach y mostrar el los elementos guardados.
